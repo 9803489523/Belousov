@@ -1,0 +1,15 @@
+D:\Orders\C#\Belousov\Belousov\obj\Debug\net6.0\Belousov.csproj.AssemblyReference.cache
+D:\Orders\C#\Belousov\Belousov\obj\Debug\net6.0\Belousov.GeneratedMSBuildEditorConfig.editorconfig
+D:\Orders\C#\Belousov\Belousov\obj\Debug\net6.0\Belousov.AssemblyInfoInputs.cache
+D:\Orders\C#\Belousov\Belousov\obj\Debug\net6.0\Belousov.AssemblyInfo.cs
+D:\Orders\C#\Belousov\Belousov\obj\Debug\net6.0\Belousov.csproj.CoreCompileInputs.cache
+D:\Orders\C#\Belousov\Belousov\bin\Debug\net6.0\Belousov.exe
+D:\Orders\C#\Belousov\Belousov\bin\Debug\net6.0\Belousov.deps.json
+D:\Orders\C#\Belousov\Belousov\bin\Debug\net6.0\Belousov.runtimeconfig.json
+D:\Orders\C#\Belousov\Belousov\bin\Debug\net6.0\Belousov.dll
+D:\Orders\C#\Belousov\Belousov\bin\Debug\net6.0\ref\Belousov.dll
+D:\Orders\C#\Belousov\Belousov\bin\Debug\net6.0\Belousov.pdb
+D:\Orders\C#\Belousov\Belousov\obj\Debug\net6.0\Belousov.dll
+D:\Orders\C#\Belousov\Belousov\obj\Debug\net6.0\ref\Belousov.dll
+D:\Orders\C#\Belousov\Belousov\obj\Debug\net6.0\Belousov.pdb
+D:\Orders\C#\Belousov\Belousov\obj\Debug\net6.0\Belousov.genruntimeconfig.cache
