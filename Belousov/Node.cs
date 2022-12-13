@@ -6,57 +6,44 @@ using System.Threading.Tasks;
 
 namespace Belousov
 {
-    /*
-       Перечисление для определения положения узла в дереве 
-   */
+    //Перечисление для определения положения узла в дереве 
     public enum Side
     {
         Left,
         Right
     }
 
-    /*
-        Класс узла В-дерева
-    */
+
+    //Класс узла бинарного дерева
     public class Node
     {
-        /*
-            Конструктор
-        */
+        //Конструктор
         public Node(string data, int id)
         {
             Data = data;
             Id = id;
         }
 
-        /*
-            Данные узла
-        */
+        //Данные узла
+
         public string Data { get; set; }
 
-        /*
-            Идентификатор узла
-        */
+        //Идентификатор узла
         public int Id { get; set; }
 
-        /*
-            Левая ветка
-        */
+        //Левая ветка
         public Node LeftNode { get; set; }
 
-        /*
-            Правая ветка
-        */
+        
+        //Правая ветка
         public Node RightNode { get; set; }
 
-        /*
-            Родительский узел
-        */
+
+        //Родительский узел
         public Node ParentNode { get; set; }
 
-        /*
-            Расположение узла относительно родителя
-        */
+        
+        //Расположение узла относительно родителя  
         public Side? NodeSide =>
             ParentNode == null
             ? (Side?)null

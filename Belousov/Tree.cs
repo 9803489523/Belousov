@@ -9,7 +9,7 @@ namespace Belousov
     internal class Tree
     {
         
-       //Корень В-дерева  
+       //Корень бинарного дерева  
         public Node RootNode { get; set; }
 
        
@@ -36,7 +36,7 @@ namespace Belousov
                         : Add(node, currentNode.RightNode);
         }
 
-       //Добавление элемента в В-дерево (для пользователя)   
+       //Добавление элемента в бинарного дерево (для пользователя)   
         public Node Add(string data, int id)
         {
             return Add(new Node(data, id));
@@ -61,14 +61,14 @@ namespace Belousov
 
 
         
-        //Вывод В-дерева на консоль (для пользователей)
+        //Вывод бинарного дерева на консоль (для пользователей)
         public void PrintTree()
         {
             PrintTree(RootNode);
         }
 
         
-        //Вывод В-дерева на консоль
+        //Вывод дерева на консоль
         private void PrintTree(Node startNode, string indent = "", Side? side = null)
         {
             if (startNode != null)
