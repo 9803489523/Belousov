@@ -160,5 +160,66 @@ namespace Belousov
                 }
             }
         }
+        public void Menu(Tree tree)
+        {
+            int key;
+            string value;
+            Console.WriteLine("Выберете функцию: ");
+            Console.WriteLine("1 - добавление");
+            Console.WriteLine("2 - удаление по id");
+            Console.WriteLine("3 - поиск по id");
+            Console.WriteLine("4 - вывести дерево на экран");
+            Console.WriteLine("5 - выход из цикла");
+            string choose = Console.ReadLine();
+                if (choose.Equals("1"))
+                {
+                    Console.WriteLine("Введите пару ключ значение (сначала ключ, потом значение)");
+                    key = int.Parse(Console.ReadLine());
+                    value = Console.ReadLine();
+                    tree.Add(value, key);
+                    Menu(tree);
+                }
+                else
+                {
+                    if (choose.Equals("2"))
+                    {
+                        Console.WriteLine("Введите id для удаления");
+                        key = int.Parse(Console.ReadLine());
+                        tree.Remove(key);
+                        Menu(tree);
+                    }
+                    else
+                    {
+                        if (choose.Equals("3"))
+                        {
+                            Console.WriteLine("Введите id для поиска");
+                            key = int.Parse(Console.ReadLine());
+                            Console.WriteLine(tree.FindNode(key).Data);
+                            Menu(tree);
+                        }
+                        else
+                        {
+                            if (choose.Equals("4"))
+                            {
+                                tree.PrintTree();
+                                Menu(tree);
+                            }
+                            else
+                            {
+                                if (choose.Equals("5"))
+                                {
+                                    return;
+                                }
+                                else
+                                {
+                                    Console.WriteLine("Введите корректные данные");
+                                    Menu(tree);
+                                }
+                            }
+                        }
+                    }
+                }
+            
+        }
     }
 }

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "d47d0d70-806a-4d38-a9fe-0c0bf15c410c": {
+      "ProjectGuid": "d47d0d70-806a-4d38-a9fe-0c0bf15c410c",
+      "DisplayName": "Belousov",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
